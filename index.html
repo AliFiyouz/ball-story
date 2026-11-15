@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ball Story — Catch Game</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="game-wrap">
+    <h1>Ball Story 🏀</h1>
+
+    <div class="hud">
+      <span>امتیاز: <b id="score">0</b></span>
+      <span>رکورد: <b id="best">0</b></span>
+      <span>جان: <b id="lives">❤❤❤</b></span>
+    </div>
+
+    <canvas id="game" width="480" height="520"></canvas>
+
+    <!-- صفحه‌ی شروع / پایان -->
+    <div class="overlay" id="overlay">
+      <h2 id="overlay-title">آماده‌ای؟</h2>
+      <p id="overlay-text">سبد را با ماوس یا کلیدهای ← → حرکت بده و توپ‌ها را بگیر.</p>
+      <button id="start-btn">شروع بازی</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
